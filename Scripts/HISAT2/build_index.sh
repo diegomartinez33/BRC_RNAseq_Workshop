@@ -2,7 +2,8 @@
 # Building an Index for HISAT2
 
 #Make a new folder your HISAT2 index
-mkdir ~/03_hisat2/hisat2_index 
+mkdir -p ~/03_hisat2
+mkdir -p ~/03_hisat2/hisat2_index 
 
 #Change directory into folder
 cd ~/03_hisat2/hisat2_index
