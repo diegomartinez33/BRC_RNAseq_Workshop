@@ -199,13 +199,11 @@ sum(result_table$FDR < 0.05)
 
 # Summary of the significant genes at FDR < 0.05
 summary(decideTests(qlf))
-# Because CP is the reference level:
 # - Up = higher expression in CNP
 # - Down = higher expression in CP
 
 # Save results
  write.csv(result_table, file = "pipefish_CP_vs_CNP_edgeR_results.csv")
-# Because CP is the reference level:
 # - positive logFC = higher expression in CNP
 # - negative logFC = higher expression in CP
 
